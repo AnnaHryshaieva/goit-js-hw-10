@@ -1,0 +1,86 @@
+.form {
+  width: 300px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+fieldset {
+  display: flex;
+  justify-content: center;
+  stroke-width: 1px;
+  width: 375px;
+  height: 64px;
+  flex-shrink: 0;
+  padding: 0;
+  border-radius: 4px;
+  border: 1px solid #808080;
+}
+
+fieldset:hover,
+fieldset:active {
+  border-color: #000;
+}
+
+label,
+legend {
+  color: #2e2f42;
+  font-family: Montserrat;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+legend {
+  margin-left: 28px;
+}
+
+.inputMs {
+  width: 360px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  border: 1px solid #808080;
+  color: #2e2f42;
+  font-family: Montserrat;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  padding-left: 16px;
+  margin-top: 8px;
+}
+
+.inputMs:hover {
+  border: 1px solid #000;
+}
+
+.inputMs:active {
+  border: 1px solid #4e75ff;
+}
+
+.inputState:last-child {
+  margin-left: 40px;
+}
+
+button {
+  border-radius: 8px;
+  background: #4e75ff;
+  display: flex;
+  width: 380px;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  border: none;
+}
+button:hover {
+  background: #6c8cff;
+}

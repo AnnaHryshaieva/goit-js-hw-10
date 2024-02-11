@@ -23,9 +23,9 @@ const options = {
   onClose(selectedDates) {
     if (selectedDates[0] < new Date()) {
       button.disabled = true;
-      iziToast.show({
+      iziToast.error({
+        title: 'Error',
         position: 'topRight',
-        color: 'red',
         message: 'Please choose a date in the future',
       });
       return;
